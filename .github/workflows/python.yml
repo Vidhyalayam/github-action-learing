@@ -1,7 +1,7 @@
-name: learn-github-actions
+name: Set up and Display Python's version 
 on: [push]
 jobs:
-  check-bats-version:
+  check-pythons-version:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
